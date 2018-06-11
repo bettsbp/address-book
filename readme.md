@@ -11,16 +11,13 @@ _...._
 ## Rules
 
 ### Specs
-| Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
-| **1** | 1 | I |
-| **2** | 5 | V |
-| **3**| 4 | IV |
-| **4**| 11 | XI |
-| **5** | 111 | LXI |
-| **6**| 1111 | MLXI |
-| **7**| 4000 | That is not a valid number |
-| **8**| afw | That is not a number |
+|Behavior  |     Input     | Output|
+|:----------:|:-------------:|:------:|
+| Combine First and Last Name | **First name:** Markus - **Last name:** Warren | Markus Warren |
+
+|Behavior | Input | Output |
+|:--:|:----:|:---:|
+| Combines all inputs into one properties string | Oregon - Multnomah - Any time - Lots of visitors | Oregon, Multnomah, Any time, Lots of visitors.
 
 
 ## Setup/Installation Requirements
