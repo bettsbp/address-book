@@ -1,0 +1,16 @@
+#show-task {
+  display: none;
+}
+
+.todoTask {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.todoTask:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: grey;
+}

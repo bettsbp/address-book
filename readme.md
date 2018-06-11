@@ -6,18 +6,24 @@
 
 ## Description
 
-_...._
+_A couple programs to practice using objects in JavaScript_
 
-## Rules
+### Behaviors
 
-### Specs
+## Address Book
 |Behavior  |     Input     | Output|
 |:----------:|:-------------:|:------:|
 | Combine First and Last Name | **First name:** Markus - **Last name:** Warren | Markus Warren |
 
+## Places
 |Behavior | Input | Output |
 |:--:|:----:|:---:|
-| Combines all inputs into one properties string | Oregon - Multnomah - Any time - Lots of visitors | Oregon, Multnomah, Any time, Lots of visitors.
+| Combines all inputs into one properties string | Oregon - Multnomah - Any time - Lots of visitors | Oregon, Multnomah, Any time, Lots of visitors. |
+
+## To-do List
+|Behavior | Input | Output |
+|:--:|:----:|:---:|
+| Creates to-do task | Clean room - 12:00 pm - My room | Clean room at 12:00 pm at/in My room |
 
 
 ## Setup/Installation Requirements
@@ -31,6 +37,6 @@ _...._
 
 ## Technologies Used
 
-Basic HTML, CSS, and JavaScript
+HTML, CSS, and JavaScript
 
-Copyright (c) 2018 Brandon Betts All Rights Reserved.
+Copyright (c) 2018 Brandon Betts and Craig Wann All Rights Reserved.

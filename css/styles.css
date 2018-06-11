@@ -2,11 +2,11 @@
   display: none;
 }
 
-.contact {
+.todoTask {
   cursor: pointer;
   color: #0088cc;
 }
 
-.contact:hover {
+.todoTask:hover {
   text-decoration: underline;
 }
