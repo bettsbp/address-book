@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/todo.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/todo.js"></script>
+    <title>To-do List</title>
+    <link href='img/icon.ico' rel='shortcut icon'>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>To-do List:</h1>
+      </div>
+      <div class='well'>
+        <form id="todolist">
+          <div class='form-group'>
+            <label for="inputTask">Enter a Task:</label>
+            <input type='text' class='form-control' id='inputTask'>
+          </div>
+          <div class='form-group'>
+            <label for='inputTime'>Enter a Time:</label>
+            <input type='datetime-local' class='form-control' id='inputTime'>
+          </div>
+          <div class='form-group'>
+            <label for='inputPlace'>Enter a Place:</label>
+            <input type='checkbox' class='form-control' id='inputPlace'>
+          </div>
+          <button type='button' class='button btn-info'>Submit Entry</button>
+        </form>
+
+
+        <div id="show-list">
+          <ul>
+            <!-- empty space  -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
