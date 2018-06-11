@@ -5,12 +5,28 @@
 .todoTask {
   cursor: pointer;
   color: #0088cc;
+  font-size: 13px;
+  transition: .25s;
 }
 
 .todoTask:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  font-size: 14px;
+  transition: .25s;
 }
 
 body {
   background-color: grey;
+}
+
+.btn-danger {
+  float: right;
+}
+li {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: dotted grey 1px;
+  list-style-type: none;
+  text-align: center;
 }

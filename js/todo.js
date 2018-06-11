@@ -20,7 +20,7 @@ $(document).ready(function() {
 
     var newTask = new Task(inputTask, inputTime, inputPlace);
 
-    $('ul#todoTask').append('<li><span class="todoTask">' + newTask.createTask() + '</span></li>');
+    $('ul#todoTask').append('<li><span class="todoTask">' + newTask.createTask() + ' ' + '</span><button class="button btn-danger" type="button">Remove/Done</button></li>');
 
     $(".todoTask").last().click(function() {
       $("#show-task").show();
@@ -29,6 +29,10 @@ $(document).ready(function() {
       $("#time-of").text(newTask.time);
       $("#place-of").text(newTask.place);
     });
+
+    $(".btn-danger").click(function() {
+      $(this).parent().remove();
+    })
 
     $('input#inputTask').val('');
     $('input#inputTime').val('');
