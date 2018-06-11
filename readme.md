@@ -1,8 +1,8 @@
-# _Wk. 4 - Address Book_
+# _Wk. 4 - Address Book and Destinations_
 
-#### _Address Book_
+#### _Address Book and Place Page_
 
-#### By _**Brandon B**_
+#### By _**Brandon B and Craig W**_
 
 ## Description
 
@@ -11,6 +11,10 @@ _...._
 ## Rules
 
 ## Expected Behaviors
+
+| 
+| :------------: | :------------: | :------------: |
+
 
 ## Setup/Installation Requirements
 
